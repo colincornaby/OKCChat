@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3109191513A5AB8A005569DE /* OKChatService.m in Sources */ = {isa = PBXBuildFile; fileRef = 3109191413A5AB8A005569DE /* OKChatService.m */; };
+		31FF3B2B13A58F9700D33389 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31FF3B2A13A58F9700D33389 /* Cocoa.framework */; };
+		31FF3B3513A58F9700D33389 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 31FF3B3313A58F9700D33389 /* InfoPlist.strings */; };
+		31FF3B4613A58FE100D33389 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31FF3B4513A58FE100D33389 /* SenTestingKit.framework */; };
+		31FF3B4713A58FE100D33389 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31FF3B2A13A58F9700D33389 /* Cocoa.framework */; };
+		31FF3B4D13A58FE100D33389 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 31FF3B4B13A58FE100D33389 /* InfoPlist.strings */; };
+		31FF3B4F13A58FE100D33389 /* OKCChat_Unit_Tests.h in Resources */ = {isa = PBXBuildFile; fileRef = 31FF3B4E13A58FE100D33389 /* OKCChat_Unit_Tests.h */; };
+		31FF3B5113A58FE200D33389 /* OKCChat_Unit_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 31FF3B5013A58FE100D33389 /* OKCChat_Unit_Tests.m */; };
+		31FF3B5813A5900D00D33389 /* IMServicePlugIn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31FF3B5713A5900D00D33389 /* IMServicePlugIn.framework */; };
+		31FF3B5E13A5933600D33389 /* OKChatServicePlugIn.m in Sources */ = {isa = PBXBuildFile; fileRef = 31FF3B5D13A5933600D33389 /* OKChatServicePlugIn.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3109191313A5AB8A005569DE /* OKChatService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OKChatService.h; sourceTree = "<group>"; };
+		3109191413A5AB8A005569DE /* OKChatService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OKChatService.m; sourceTree = "<group>"; };
+		31FF3B2713A58F9700D33389 /* OKCChat.imserviceplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OKCChat.imserviceplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		31FF3B2A13A58F9700D33389 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		31FF3B2D13A58F9700D33389 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		31FF3B2E13A58F9700D33389 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		31FF3B2F13A58F9700D33389 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		31FF3B3213A58F9700D33389 /* OKCChat-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OKCChat-Info.plist"; sourceTree = "<group>"; };
+		31FF3B3413A58F9700D33389 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		31FF3B3613A58F9700D33389 /* OKCChat-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OKCChat-Prefix.pch"; sourceTree = "<group>"; };
+		31FF3B4413A58FE100D33389 /* OKCChat Unit Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OKCChat Unit Tests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		31FF3B4513A58FE100D33389 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		31FF3B4A13A58FE100D33389 /* OKCChat Unit Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OKCChat Unit Tests-Info.plist"; sourceTree = "<group>"; };
+		31FF3B4C13A58FE100D33389 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		31FF3B4E13A58FE100D33389 /* OKCChat_Unit_Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OKCChat_Unit_Tests.h; sourceTree = "<group>"; };
+		31FF3B5013A58FE100D33389 /* OKCChat_Unit_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OKCChat_Unit_Tests.m; sourceTree = "<group>"; };
+		31FF3B5213A58FE200D33389 /* OKCChat Unit Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OKCChat Unit Tests-Prefix.pch"; sourceTree = "<group>"; };
+		31FF3B5713A5900D00D33389 /* IMServicePlugIn.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IMServicePlugIn.framework; path = System/Library/Frameworks/IMServicePlugIn.framework; sourceTree = SDKROOT; };
+		31FF3B5C13A5933600D33389 /* OKChatServicePlugIn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OKChatServicePlugIn.h; sourceTree = "<group>"; };
+		31FF3B5D13A5933600D33389 /* OKChatServicePlugIn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OKChatServicePlugIn.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		31FF3B2413A58F9700D33389 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31FF3B5813A5900D00D33389 /* IMServicePlugIn.framework in Frameworks */,
+				31FF3B2B13A58F9700D33389 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31FF3B4013A58FE100D33389 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31FF3B4613A58FE100D33389 /* SenTestingKit.framework in Frameworks */,
+				31FF3B4713A58FE100D33389 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		31FF3B1C13A58F9700D33389 = {
+			isa = PBXGroup;
+			children = (
+				31FF3B3013A58F9700D33389 /* OKCChat */,
+				31FF3B4813A58FE100D33389 /* OKCChat Unit Tests */,
+				31FF3B2913A58F9700D33389 /* Frameworks */,
+				31FF3B2813A58F9700D33389 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		31FF3B2813A58F9700D33389 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				31FF3B2713A58F9700D33389 /* OKCChat.imserviceplugin */,
+				31FF3B4413A58FE100D33389 /* OKCChat Unit Tests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		31FF3B2913A58F9700D33389 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				31FF3B5713A5900D00D33389 /* IMServicePlugIn.framework */,
+				31FF3B2A13A58F9700D33389 /* Cocoa.framework */,
+				31FF3B4513A58FE100D33389 /* SenTestingKit.framework */,
+				31FF3B2C13A58F9700D33389 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		31FF3B2C13A58F9700D33389 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				31FF3B2D13A58F9700D33389 /* AppKit.framework */,
+				31FF3B2E13A58F9700D33389 /* CoreData.framework */,
+				31FF3B2F13A58F9700D33389 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		31FF3B3013A58F9700D33389 /* OKCChat */ = {
+			isa = PBXGroup;
+			children = (
+				31FF3B3113A58F9700D33389 /* Supporting Files */,
+				31FF3B5C13A5933600D33389 /* OKChatServicePlugIn.h */,
+				31FF3B5D13A5933600D33389 /* OKChatServicePlugIn.m */,
+				3109191313A5AB8A005569DE /* OKChatService.h */,
+				3109191413A5AB8A005569DE /* OKChatService.m */,
+			);
+			path = OKCChat;
+			sourceTree = "<group>";
+		};
+		31FF3B3113A58F9700D33389 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				31FF3B3213A58F9700D33389 /* OKCChat-Info.plist */,
+				31FF3B3313A58F9700D33389 /* InfoPlist.strings */,
+				31FF3B3613A58F9700D33389 /* OKCChat-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		31FF3B4813A58FE100D33389 /* OKCChat Unit Tests */ = {
+			isa = PBXGroup;
+			children = (
+				31FF3B4E13A58FE100D33389 /* OKCChat_Unit_Tests.h */,
+				31FF3B5013A58FE100D33389 /* OKCChat_Unit_Tests.m */,
+				31FF3B4913A58FE100D33389 /* Supporting Files */,
+			);
+			path = "OKCChat Unit Tests";
+			sourceTree = "<group>";
+		};
+		31FF3B4913A58FE100D33389 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				31FF3B4A13A58FE100D33389 /* OKCChat Unit Tests-Info.plist */,
+				31FF3B4B13A58FE100D33389 /* InfoPlist.strings */,
+				31FF3B5213A58FE200D33389 /* OKCChat Unit Tests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		31FF3B2613A58F9700D33389 /* OKCChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31FF3B3913A58F9700D33389 /* Build configuration list for PBXNativeTarget "OKCChat" */;
+			buildPhases = (
+				31FF3B2313A58F9700D33389 /* Sources */,
+				31FF3B2413A58F9700D33389 /* Frameworks */,
+				31FF3B2513A58F9700D33389 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OKCChat;
+			productName = OKCChat;
+			productReference = 31FF3B2713A58F9700D33389 /* OKCChat.imserviceplugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+		31FF3B4313A58FE100D33389 /* OKCChat Unit Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31FF3B5513A58FE200D33389 /* Build configuration list for PBXNativeTarget "OKCChat Unit Tests" */;
+			buildPhases = (
+				31FF3B3F13A58FE100D33389 /* Sources */,
+				31FF3B4013A58FE100D33389 /* Frameworks */,
+				31FF3B4113A58FE100D33389 /* Resources */,
+				31FF3B4213A58FE100D33389 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OKCChat Unit Tests";
+			productName = "OKCChat Unit Tests";
+			productReference = 31FF3B4413A58FE100D33389 /* OKCChat Unit Tests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		31FF3B1E13A58F9700D33389 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Consonance Software";
+			};
+			buildConfigurationList = 31FF3B2113A58F9700D33389 /* Build configuration list for PBXProject "OKCChat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 31FF3B1C13A58F9700D33389;
+			productRefGroup = 31FF3B2813A58F9700D33389 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				31FF3B2613A58F9700D33389 /* OKCChat */,
+				31FF3B4313A58FE100D33389 /* OKCChat Unit Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		31FF3B2513A58F9700D33389 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31FF3B3513A58F9700D33389 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31FF3B4113A58FE100D33389 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31FF3B4D13A58FE100D33389 /* InfoPlist.strings in Resources */,
+				31FF3B4F13A58FE100D33389 /* OKCChat_Unit_Tests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		31FF3B4213A58FE100D33389 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		31FF3B2313A58F9700D33389 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31FF3B5E13A5933600D33389 /* OKChatServicePlugIn.m in Sources */,
+				3109191513A5AB8A005569DE /* OKChatService.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31FF3B3F13A58FE100D33389 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31FF3B5113A58FE200D33389 /* OKCChat_Unit_Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		31FF3B3313A58F9700D33389 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31FF3B3413A58F9700D33389 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		31FF3B4B13A58FE100D33389 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31FF3B4C13A58FE100D33389 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		31FF3B3713A58F9700D33389 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_OBJCPP_ARC_ABI = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		31FF3B3813A58F9700D33389 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_OBJCPP_ARC_ABI = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		31FF3B3A13A58F9700D33389 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEPLOYMENT_LOCATION = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OKCChat/OKCChat-Prefix.pch";
+				INFOPLIST_FILE = "OKCChat/OKCChat-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/iChat/PlugIns";
+				New_Setting = "-fno-objc-arc";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = imserviceplugin;
+			};
+			name = Debug;
+		};
+		31FF3B3B13A58F9700D33389 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OKCChat/OKCChat-Prefix.pch";
+				INFOPLIST_FILE = "OKCChat/OKCChat-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/iChat/PlugIns";
+				New_Setting = "-fno-objc-arc";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = imserviceplugin;
+			};
+			name = Release;
+		};
+		31FF3B5313A58FE200D33389 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OKCChat Unit Tests/OKCChat Unit Tests-Prefix.pch";
+				INFOPLIST_FILE = "OKCChat Unit Tests/OKCChat Unit Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		31FF3B5413A58FE200D33389 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OKCChat Unit Tests/OKCChat Unit Tests-Prefix.pch";
+				INFOPLIST_FILE = "OKCChat Unit Tests/OKCChat Unit Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		31FF3B2113A58F9700D33389 /* Build configuration list for PBXProject "OKCChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31FF3B3713A58F9700D33389 /* Debug */,
+				31FF3B3813A58F9700D33389 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31FF3B3913A58F9700D33389 /* Build configuration list for PBXNativeTarget "OKCChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31FF3B3A13A58F9700D33389 /* Debug */,
+				31FF3B3B13A58F9700D33389 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31FF3B5513A58FE200D33389 /* Build configuration list for PBXNativeTarget "OKCChat Unit Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31FF3B5313A58FE200D33389 /* Debug */,
+				31FF3B5413A58FE200D33389 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 31FF3B1E13A58F9700D33389 /* Project object */;
+}
