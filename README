@@ -1,0 +1,10 @@
+OKCChat is a BSD licensed iChat plugin using the new iChat plugin API available on Mac OS 10.7 or higher. It uses public APIs provided by Apple to hook into iChat.
+
+Installation:
+
+An installation package for this project is provided, but if you'd like to manually install, follow these steps:
+
+1) Build the project and copy the imserviceplugin to Library/iChat/PlugIns
+2) Shut down both iChat and imagent if they are running
+3) Start iChat
+4) Add OKCChat as a service in iChat preferences, enter your user details, and begin chatting!

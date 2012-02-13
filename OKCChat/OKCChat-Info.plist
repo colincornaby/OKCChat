@@ -17,15 +17,11 @@
 	<key>CFBundlePackageType</key>
 	<string>BNDL</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.0</string>
+	<string>0.1</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>
 	<string>1</string>
-	<key>NSHumanReadableCopyright</key>
-	<string>Copyright © 2011 Consonance Software. All rights reserved.</string>
-	<key>NSPrincipalClass</key>
-	<string>OKChatServicePlugin</string>
 	<key>IMDefaultHandleCapabilities</key>
 	<array>
 		<string>IMHandleCapabilityMessaging</string>
@@ -45,6 +41,10 @@
 	<false/>
 	<key>IMUsesServerPortAccountSetting</key>
 	<false/>
+	<key>NSHumanReadableCopyright</key>
+	<string>Copyright © 2011 Consonance Software. All rights reserved.</string>
+	<key>NSPrincipalClass</key>
+	<string>OKChatServicePlugin</string>
 	<key>kABInstantMessageProperty</key>
 	<string>kABInstantMessageServiceOkCupid</string>
 </dict>
