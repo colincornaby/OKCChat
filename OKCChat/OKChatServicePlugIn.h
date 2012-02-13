@@ -10,7 +10,7 @@
 #import <IMServicePlugIn/IMServicePlugIn.h>
 #import "OKChatService.h"
 
-@interface OKChatServicePlugIn : NSObject <IMServicePlugIn, IMServicePlugInGroupListSupport, IMServicePlugInInstantMessagingSupport>
+@interface OKChatServicePlugIn : NSObject <IMServicePlugIn, IMServicePlugInGroupListSupport, IMServicePlugInInstantMessagingSupport, OKChatServiceDelegate>
 {
     id<
         IMServiceApplication,

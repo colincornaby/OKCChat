@@ -63,7 +63,7 @@ NSString *CreateEscapedString(NSString *inString)
 {
     static CFStringRef sUnescape = NULL;
     static CFStringRef sForceEscape = CFSTR("&=:/+%");
-    return CFURLCreateStringByAddingPercentEscapes(NULL, (CFStringRef)inString, sUnescape, sForceEscape, kCFStringEncodingUTF8);
+    return (NSString *)CFURLCreateStringByAddingPercentEscapes(NULL, (CFStringRef)inString, sUnescape, sForceEscape, kCFStringEncodingUTF8);
 }
 
 - (oneway void) requestGroupList

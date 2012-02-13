@@ -12,7 +12,7 @@
 
 @synthesize username = m_username, password = m_password, delegate = m_delegate;
 
-- (id)initWithDelegate:(id)delegate
+- (id)initWithDelegate:(id <OKChatServiceDelegate>)delegate
 {
     self = [super init];
     if (self) {
@@ -52,7 +52,7 @@
 
 - (void)connection:(NSURLConnection *)connection didReceiveResponse:(NSURLResponse *)response
 {
-    NSHTTPURLResponse *HTTPResponse = (NSHTTPURLResponse *)response;
+    //NSHTTPURLResponse *HTTPResponse = (NSHTTPURLResponse *)response;
         
 }
 

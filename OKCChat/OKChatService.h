@@ -9,6 +9,12 @@
 #import <Foundation/Foundation.h>
 #import <IMServicePlugIn/IMServicePlugIn.h>
 
+@protocol OKChatServiceDelegate
+
+-(void)okcChatServiceDidReceiveData:(NSData *)data;
+
+@end
+
 @interface OKChatService : NSObject
 {
     NSString *m_username;
@@ -18,11 +24,11 @@
     NSMutableDictionary *buffers;
 }
 
-@property (assign) id       delegate;
-@property (copy) NSString * username;
-@property (copy) NSString * password;
+@property (assign) id <OKChatServiceDelegate>       delegate;
+@property (copy) NSString *                         username;
+@property (copy) NSString *                         password;
 
 - (void)post:(NSString *)post toService:(NSString *)service;
-- (id)initWithDelegate:(id)delegate;
+- (id)initWithDelegate:(id <OKChatServiceDelegate>)delegate;
 
 @end
